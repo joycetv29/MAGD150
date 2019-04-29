@@ -1,0 +1,100 @@
+size(500, 500);
+background(#000000);
+
+//quad(50,50,50,25,25,25,25,50);
+//quad(75,37.5,37.5,0,0,37.5,37,75);
+stroke(#FFFFFF);
+quad(337.5,375,350,350,375,337.5,350,325);
+quad(337.5,300,325,325,300,337.5,325,350);
+quad(337.5,375,325,350,337.5,300,350,325);
+//quad(287.5,325,300,300,325,287.5,300,275);
+//quad(287.5,250,275,275,250,287.5,275,300);
+//quad(287.5,325,275,300,287.5,250,300,275);
+
+//beginShape();
+//  vertex(237.5,275);
+//  vertex(250,250);
+//  vertex(275,237.5);
+//  vertex(250,225);
+//  vertex(237.5,200);
+//  vertex(225,225);
+//  vertex(200,237.5);
+//  vertex(225,250);
+//  endShape(CLOSE);
+
+beginShape();
+  vertex(215,230);
+  vertex(220,220);
+  vertex(230,215);
+  vertex(220,210);
+  vertex(215,200);
+  vertex(210,210);
+  vertex(200,215);
+  vertex(210,220);
+  endShape(CLOSE);
+  
+triangle(415,430,420,420,410,420);
+triangle(420,420,430,415,420,410);
+triangle(415,400,410,410,420,410);
+triangle(400,415,410,420,410,410);
+rect(410,410,10,10);
+  
+//beginShape();
+//  vertex(337.5,375);
+//  vertex(350,350);
+//  vertex(375,337.5);
+//  vertex(350,325);
+//  vertex(337.5,300);
+//  vertex(325,325);
+//  vertex(300,337.5);
+//  vertex(325,350);
+//  endShape(CLOSE);
+  
+strokeWeight(4);
+point(40,202);
+point(29,29);
+point(483,120);
+point(230,83);
+point(384,20);
+point(390,75);
+point(280,392);
+point(390,243);
+point(269,8);
+point(201,410);
+point(91,166);
+  
+strokeWeight(6);
+point(80,446);
+point(39,316);
+point(220,240);
+point(5,203);
+point(157,27);
+point(318,60);
+point(450,312);
+point(489,132);
+
+strokeWeight(8);
+point(271,50);
+point(372,360);
+point(5,374);
+point(181,187);
+point(115,462);
+point(412,266);
+point(133,27);
+point(211,40);
+
+strokeWeight(10);
+point(226,312);
+point(365,175);
+colorMode(RGB);
+stroke(#32CD32);
+point(113,116);
+point(468,19);
+point(379,492);
+colorMode(RGB);
+stroke(0,255,255);
+point(204,407);
+point(263,308);
+colorMode(HSB,360,100,100,100);
+stroke(0,75,95);
+point(11,481);
