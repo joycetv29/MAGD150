@@ -1,19 +1,18 @@
-## Welcome to GitHub Pages
+## Tessa Joyce's MAGD150
+Here is a big 'ol description of my webiste.
 
-You can use the [editor on GitHub](https://github.com/joycetv29/MAGD150/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+### Projects.
+#### Project One.
+Project One was, you guessed it, the first Project that we were assigned to work on in this class. As an early lesson, the most complciated thing that it asked us to create a scene using rectangles, ellipses, points, and lines. Play with the stroke and fill of shapes, as well as keep in mind the overall composition of the project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Project Two.
+Project Two asked us to start playing with color and color modes, and to use more complicated shapes such as triagnles, quadrilaterals, and the like, all while keeping to the theme of "space". Once again, composition was to play a part in our overall grade. In order to meet the requirements and keep with the theme, I used the different shapes we were required to use to make up multiple stars. Looking back on it, I also forgot to remove a lot old code before submtiting. Regardless, I hope you enjoy!
 
-### Markdown
+#### Project Three.
+Project Three was quite the challenge, as it asked us to create functions that involved the use of the mouse and *lot* of math, which I may or may not have tried to get out of the way by incorporating a ridiculous amount of addition, subtratction, multiplication, and division in a few of the functions when I could have simply written, "50," instead. However, I think that it is one of the most enjoyable and interactive projects that I have made to date, even if it is rather simple.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
+#### Project Four.
+Ah, the dreaded mouse and key functions -- eaily the most enjoyable to play with as a viewer, but exceedingly difficult for me to understand and write without wanting to tear my hair out. The only thing that confounds me more would be loops, which, as fate would have it, were also required to be a part of this particular code. In the end, though, I did find this particular project to be overall enjoyable, and I think that the resulting image (that of a pizza with pepperoni slices flying madly about when the keys or mouse are pressed) is somewhat amusing. 
 
 - Bulleted
 - List
