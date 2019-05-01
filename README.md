@@ -1,5 +1,5 @@
-## Tessa Joyce's MAGD150
-Here is a big 'ol description of my webiste.
+## Tessa Joyce's MAGD150 Website
+Welcome! This is where I, Tessa Joyce, a student at the University of Wisconsin-Whitewater, 
 
 ### Projects.
 #### Project One.
@@ -14,7 +14,7 @@ Project Three was quite the challenge, as it asked us to create functions that i
 #### Project Four.
 Ah, the dreaded mouse and key functions -- eaily the most enjoyable to play with as a viewer, but exceedingly difficult for me to understand and write without wanting to tear my hair out. The only thing that confounds me more would be loops and if-else statements, which, as fate would have it, were also required to be a part of this particular code. In the end, though, I did find this particular project to be overall enjoyable, and I think that the resulting image (that of a pizza with pepperoni slices flying madly about when the keys or mouse are pressed) is somewhat amusing. 
 
-#### Project Ten.
+#### [Project Ten.](https://github.com/joycetv29/MAGD150/tree/gh-pages/s19magd150lab10_joyce)
 Looking back on it, Project Ten was probably one of the most difficult assignments to create. Simultaneously, once one stopped being afraid of working in the third dimension, it became one of the easiest. It was a strange mix, and I wished that I had stopped being intimidated by 3D shapes earlier on -- it would have made this project far easier to deal with and saved a lot of time and struggle. In the end, however, I'm rather proud of the final result, even if it doesn't appear rather simple.
 
 - Bulleted
