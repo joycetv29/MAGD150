@@ -1,5 +1,5 @@
 ## Tessa Joyce's MAGD150 Website
-Welcome! This is where I, Tessa Joyce, a student at the University of Wisconsin-Whitewater, 
+Welcome!
 
 ### Projects.
 #### [Project One.](https://github.com/joycetv29/MAGD150/blob/gh-pages/s19magd150lab01_joyce/s19magd150lab01_joyce.pde)
