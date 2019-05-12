@@ -1,3 +1,5 @@
+import processing.sound.*;
+
 //the X and Y positions of Otto the Owl, as well as his
 //radius and speed.
 float owlX = 75, owlY= 25, owlRadius = 15, owlSpeed = 3;
@@ -6,14 +8,25 @@ boolean startGame;
 float nextScreen;
 PFont titleFont;
 
+SoundFile sound;
 mazeWall[] wall;
 
 void setup() { 
   size(750,750);
   noStroke();
   ellipseMode(RADIUS);
+  //loading the font.
   titleFont = loadFont("MLingWaiMedium-SC-48.vlw");
   textFont(titleFont);
+  //loading the sound.
+  sound = new SoundFile(this, "backgroundSound.wav");
+  sound.play();
+  sound.loop();
+  nextScreen = 1; //causes the Start Screen to spawn immediatly.
+  frameCount = 0; //resets the timer when the player opts to replay.
+  owlX = 75; //this line of code and the next reset the player's
+  owlY = 25; //position when they opt to replay the game.
+  frameRate(60);
   
   //setting up the array that will later draw the walls
   //of the maze.
@@ -112,26 +125,51 @@ void draw() {
   //  } //END OF KEY PRESSED
   //} //END OF COLLISION (HOPEFULLY)
   
-  //START SCREEN
+  //DISPLAY FRAME COUNT
+  loadFont("MLingWaiMedium-SC-48.vlw");
+  fill(#cccccc);
+  rect(450, 13, 250, 27);
+  fill(0);
+  textSize(22);
+  text("Timer   " +frameCount/60, 500, 35);
+  
   textAlign(CENTER);
+  //START/TITLE SCREEN
   if (nextScreen == 1){
     fill(#cccccc);
     noStroke();
     rect(0, 0, 750, 750);
     fill(0);
-    loadFont("MLingWaiMedium-SC-48.vlw");
-    textSize(72);
+    textSize(65);
     text("Otto's Odyssey", 375, 375-35);
     textSize(22);
-    text("Help Otto the owlet get back to his nest!\nOtto needs your help! Navigate the maze-like forest floor of Otto's home to\nhelp him get back to his nest! Avoid enemies, such as badgers and snakes, to get\nhim to safety!", 375, 375);
+    text("Help Otto the owlet get back to his nest!\nOtto needs your help. Navigate the maze-like forest floor of Otto's home to\nhelp him get back to his nest. Avoid enemies, such as badgers and snakes, to get\nhim to safety by using the arrow keys within 60 seconds, or it's game over!", 375, 375);
     textSize(30);
     text("CLICK TO START GAME", 375, 375+115);
   } //END OF nextSCREEN == 1
   if (nextScreen == 2){
+    //REVEAL THE GAME (i.e. nextScreen ==2)
     noFill();
-  } //END OF nextSCREEN ==1
+    //TIMED-OUT SCREEN
+    if (frameCount >= 60*60){
+      fill(#cccccc);
+      rect(0, 0, 750, 750);
+      fill(0);
+      textSize(60);
+      text("Game Over!", 365, 375-25);
+      textSize(22);
+      text("Ran out of time!", 375, 375);
+      textSize(30);
+      text("Press the enter key to try again.", 375, 375+25);
+      if (keyPressed){
+        if (key == ENTER){
+          setup();
+        } //END OF ENTER COMMAND
+      } // END OF keyPRESSED 
+    } //END OF TIMED-OUT SCREEN
+  } //END OF nextSCREEN == 2
 } //END OF VOID DRAW
 
 void mouseClicked(){
   nextScreen += 1;
-}
+} //END OF MOUSE CLICKED
